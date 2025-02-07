@@ -44,5 +44,8 @@ public class Main {
         }
         System.out.println(queue.peek());
         System.out.println(queue);
+
+        NewDequeue newDequeue = new NewDequeue();
+        newDequeue.dequeue();
     }
 }
